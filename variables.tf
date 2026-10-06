@@ -79,7 +79,6 @@ variable "additional_disks" {
     thin_provisioned = optional(bool)
     datastore_id     = optional(string)
   }))
-
   default = []
 }
 
